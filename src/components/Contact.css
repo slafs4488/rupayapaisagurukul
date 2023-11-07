@@ -1,0 +1,95 @@
+.contact {
+  background-color: #ffffff;
+  /* height: 100vh; */
+  padding: 0 9rem;
+}
+
+.contact-details {
+  width: 40%;
+}
+
+.enquiry-form {
+  width: 50%;
+}
+
+.contact-details > h1 {
+  font-size: 2.5rem;
+}
+.contact-details > p {
+  opacity: 0.8;
+}
+
+.contact-details-data {
+  text-align: left;
+  margin-top: 3rem;
+}
+
+.contact-details-data > h4 {
+  margin-bottom: 0.8rem;
+}
+
+.contact-details-data > p {
+  margin-bottom: 2rem;
+}
+
+.form-area {
+  background-color: #FDFBF7;
+  width: 90%;
+  margin: auto;
+  height: 55vh;
+}
+
+.form {
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-btn{
+  background-color: #D8AE5F;
+  color: white;
+}
+
+@media all and (max-width: 480px) {
+  .contact {
+    padding: 1rem 1rem;
+    height: fit-content;
+    flex-direction: column;
+  }
+  .contact-details {
+    width: 100%;
+    text-align: center;
+    margin-top: 1.5rem;
+  }
+
+  .enquiry-form {
+    width: 100%;
+    text-align: center;
+    margin-top: 1.5rem;
+  }
+
+  .contact-details > h1 {
+    font-size: 2rem;
+  }
+
+  .contact-details > p {
+    font-size: 1.3rem;
+  }
+
+  .contact-details-data {
+    padding-left: 1rem;
+  }
+
+  .enquiry-form > h1 {
+    font-size: 2rem;
+  }
+
+  .form-area {
+    text-align: left;
+    height: 45vh;
+  }
+
+  .form {
+    padding: 2rem;
+  }
+}
